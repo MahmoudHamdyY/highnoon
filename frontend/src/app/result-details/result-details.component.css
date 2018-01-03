@@ -1,0 +1,73 @@
+/* General CSS Setup */
+body{
+  background-color: #e0e0e0;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+}
+
+/* container */
+.container {
+  padding: 5% 5%;
+}
+
+/* CSS talk bubble */
+.talk-bubble {
+	margin: -15px;
+  margin-left: 15px;
+  display: inline-block;
+  position: absolute;
+	width: auto;
+	height: auto;
+	background-color: #e0e0e0;
+  max-width: 40vw;
+  min-width: 20vw;
+}
+
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 12px solid;
+	border-color: #e0e0e0 #e0e0e0 transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.title {
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px
+}
+
+.resultURL {
+  font-size: 16px;
+  font-family: fantasy;
+  max-width: 38vw;
+  word-wrap: normal;
+  color: #551111;
+  text-decoration: none;
+}
+
+.resultBody {
+  font-size: 16px;
+  font-family: fantasy;
+  word-wrap: break-word;
+  max-width: 38vw;
+}

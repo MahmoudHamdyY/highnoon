@@ -1,0 +1,12 @@
+.topbar {
+  max-height: 60px;
+  background-color: #cdcdcd;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.logo {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  max-height: 54px;
+  max-width: 54px;
+}

@@ -1,0 +1,4 @@
+<form [formGroup]="searchForm" (ngSubmit)="search($event)">
+  <input formControlName="text" type="text" placeholder="{{ randomHint }}" class="searchInput"><!--
+  --><button type="submit" class="searchButton">Search</button>
+</form>
